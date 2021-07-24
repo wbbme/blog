@@ -3,7 +3,7 @@ const BLOG = {
   author: 'Bolby Wong',
   email: 'me@wbb.me',
   link: 'https://blog.wbb.me',
-  description: 'This gonna be an awesome website.',
+  description: 'This is my notebook.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
