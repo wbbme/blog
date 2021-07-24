@@ -1,5 +1,5 @@
 const BLOG = {
-  title: "Bolby's Note",
+  title: "Bolby's Notes",
   author: 'Bolby Wong',
   email: 'me@wbb.me',
   link: 'https://blog.wbb.me',
