@@ -1,7 +1,7 @@
 const BLOG = {
   title: "Bolby's Notes",
   author: 'Bolby',
-  email: 'me@wbb.me',
+  email: '100@wbb.me',
   link: 'https://blog.wbb.me',
   description: 'This is my notebook.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP']
