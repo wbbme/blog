@@ -6,11 +6,11 @@ import { useLocale } from '@/lib/locale'
 import useTheme from '@/lib/theme'
 
 const NavBar = () => {
-  const BLOG = useConfig()
+  const Home = useConfig()
   const locale = useLocale()
   const links = [
-    { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
-    { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
+    { id: 0, name: locale.NAV.INDEX, to: Home.path || '/', show: true },
+    { id: 1, name: locale.NAV.ABOUT, to: '/about', show: Home.showAbout },
     { id: 2, name: locale.NAV.RSS, to: '/feed', show: true, external: true },
     { id: 3, name: locale.NAV.SEARCH, to: '/search', show: true }
   ]
