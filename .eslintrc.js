@@ -7,7 +7,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:@next/next/recommended',
-    // 'standard'
+    'standard'
   ],
   parserOptions: {
     ecmaFeatures: {
