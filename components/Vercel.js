@@ -1,12 +1,12 @@
 const Vercel = () => {
   return (
     <a
-      href="https://vercel.com?utm_source=Craigary&utm_campaign=oss"
+      href="https://wbb.me"
       target="_blank"
       rel="noreferrer"
       aria-label="Vercel"
     >
-      <svg
+      {/* <svg
         width="135"
         height="28"
         viewBox="0 0 135 28"
@@ -34,7 +34,8 @@ const Vercel = () => {
             <rect width="134.909" height="28" fill="white" />
           </clipPath>
         </defs>
-      </svg>
+      </svg> */}
+      Back wbb.me
     </a>
   )
 }
