@@ -41,7 +41,7 @@ export default function BlogPost ({ post, blockMap, emailHash }) {
       <div
         className={cn(
           'px-4 flex justify-between font-medium text-gray-500 dark:text-gray-400 my-5',
-          fullWidth ? 'md:px-24' : 'mx-auto max-w-2xl'
+          fullWidth ? 'md:px-24' : 'mx-auto max-w-3xl'
         )}
       >
         <a>
