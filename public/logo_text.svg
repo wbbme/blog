@@ -1,0 +1,41 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-reduced-motion) {
+      .path1 {
+        animation: none !important;
+        stroke-dasharray: unset !important;
+      }
+    }
+
+    @keyframes grow {
+      0% {
+        opacity: 0
+      }
+
+      10% {
+        opacity: 1;
+      }
+
+      70%,
+      to {
+        stroke-dasharray: 1200px 0
+      }
+    }
+
+    .path1 {
+      stroke-dashoffset: 1px;
+      stroke-dasharray: 0px 1200px;
+      animation: grow 8s ease-in-out forwards infinite;
+      transform-origin: center;
+      stroke: #303030;
+      animation-delay: 0s;
+    }
+
+    @media (prefers-color-scheme:dark) {
+      .path1 {
+        stroke: #fdfdfd;
+      }
+    }
+  </style>
+<path class="path1" d="M52.2531 62.9984C62.5982 68.8329 89.2344 68.8329 90.9348 54.9199C92.7998 39.6605 54.052 28.4403 52.2531 38.7629C50.8453 46.8414 90.0352 38.7629 88.6859 23.5034C87.4183 9.16906 52.5031 5.32668 28.9344 19.0154C16.417 26.2855 3.816 40.5581 7.72419 56.7151C10.8724 69.7305 31.1132 70.6281 46.4059 58.0615C63.0481 43.2509 62.1482 18.5666 77.8907 6" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>
