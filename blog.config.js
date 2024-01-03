@@ -1,6 +1,6 @@
 const BLOG = {
   title: 'MEET BOB',
-  author: 'Bob wang',
+  author: 'Bob Wang',
   email: '100@wbb.me',
   link: 'https://meet.wbb.me',
   description: 'This is my notebook.',
