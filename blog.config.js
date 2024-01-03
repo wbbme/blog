@@ -33,7 +33,7 @@ const BLOG = {
       domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: '' // e.g: G-XXXXXXXXXX
+      measurementId: '陕ICP备案 20248888' // e.g: G-XXXXXXXXXX
     }
   },
   comment: {
